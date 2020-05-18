@@ -1,3 +1,10 @@
+/* Github Repo:
+            https://github.com/MK-Kwon/Week1-Code-Refactor
+
+        Live site URL: 
+            https://mk-kwon.github.io/Week1-Code-Refactor/ */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +15,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed to semantic header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,6 +83,8 @@ p {
     margin-left: 20px;
 }
 
+
+/* Removed all repeated CSS elements and created a new CSS element */
 .services-container {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,6 +98,14 @@ p {
     max-height: 200px;
 }
 
+
+.services-container h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* Removed all repeated CSS elements and created a new CSS element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,12 +134,8 @@ p {
 }
 
 
-.services-container h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-
+/* changed to semantic footer */
 footer {
     padding: 30px;
     clear: both;
