@@ -84,6 +84,10 @@ p {
     color: #ffffff;
 }
 
+.services-container img {
+    max-height: 200px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -143,18 +147,6 @@ p {
     max-width: 150px;
 }
 
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
